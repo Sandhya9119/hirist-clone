@@ -1,1 +1,1 @@
-# hirist-clone
+# Hirist Clone

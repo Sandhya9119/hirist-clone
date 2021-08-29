@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Applications Jobs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/jobs-display.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href=https://static.hirist.com/resources/img/hirist/favicon.ico>
+    </link>
+</head>
+<body>
+    <div id="main-div">
+        <div id="gallery">
+            <div id="navbar">
+                <div>
+                    <img src="images/hirist_logo.svg" alt="hirist_logo">
+                </div>
+                <div>
+                    Mobile Applications
+                    <div class="bar"></div>
+                </div>
+                <div>
+                    <a href="frontend.html" style="color: black;text-decoration: none;">Frontend Developer</a></div>
+                <div>Backend Developer</div>
+                <div>More</div>
+                <div>Work from Home</div>
+                <div>Internship</div>
+                <div>Courses</div>
+                <div>
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-bell-o"></i>
+                    <i class="fa fa-user-circle"></i>
+                </div>
+            </div>
+
+            <div id="photos">
+                <img src="https://d3qr48lsanmyop.cloudfront.net/1623218202618.jpeg" alt="image">
+                <img src="https://d3qr48lsanmyop.cloudfront.net/1623218205880.jpeg" alt="image">
+                <img src="https://d3qr48lsanmyop.cloudfront.net/1623218208796.jpeg" alt="image">
+            </div>
+
+            <div id="nav-jobs">
+                <div>
+                    Jobs
+                    <div class="bar"></div>
+                </div>
+                <div>Companies</div>
+                <div>Courses</div>
+            </div>
+
+            <div id="filter">
+                <div>Filter By:</div>
+                <div>
+                    <input type="text" placeholder="Any Exp. Level" onclick="showdiv('showexp')" id="year">
+                    <div id="showexp" class="disp">
+                        <div class="tri"></div>
+                        <div class="show">
+                            <div>Any Exp. Level</div>
+                            <div>0 - 1 yrs</div>
+                            <div>1 - 3 yrs</div>
+                            <div>4 - 6 yrs</div>
+                            <div>7 - 10 yrs</div>
+                            <div>11 - 15 yrs</div>
+                            <div>15+ yrs</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div>
+                    <input type="text" placeholder="Any Location" onclick="showdiv('showlocation')" id="location">
+                    <div id="showlocation" class="disp">
+                        <div class="tri"></div>
+                        <div class="show">
+                
+                            <div onclick="selLocation()">
+                                <label for="">Anywhere in India</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Ahmedabad</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Banglore</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Chennai</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Delhi</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Gurugram</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Hyderabad</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Kolkata</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Mumbai</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Noida</label>
+                            </div>
+                            <div onclick="selLocation()">
+                                <label for="">Pune</label>
+                            </div>
+                
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+                </div>
+                <div onclick="refine('mobile')">Refine</div>
+            </div>
+            
+        </div>
+        <div id="jobs-info">
+            <div id="jobs">
+                <h1 id="type_of_jobs">Mobile Application Jobs</h1>
+            </div>
+            <div id="other-info">
+                <p>Features Employers</p>
+                <div id="companies">
+                    <img src="images/ola.png" alt="">
+                    <img src="images/accenture.png" alt="">
+                    <img src="images/infoedge.png" alt="">
+                    <img src="images/gsngames.png" alt="">
+                    <img src="images/meesho.png" alt="">
+                    <img src="images/cogni.jpeg" alt="">
+                    <img src="images/redbus.png" alt="">
+                    <img src="images/global.jpeg" alt="">
+                    <img src="images/zycus.png" alt="">
+                    <img src="images/vdart.png" alt="">
+                    <img src="images/mpl.jpeg" alt="">
+                    <img src="images/zs.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jobs-display.js"></script>
+</body>
+</html>
