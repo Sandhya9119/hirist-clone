@@ -70,6 +70,7 @@ function signUpData(e)
         var cart = JSON.parse(cart_json);
         cart.push([emailSup, passSup, rePassSup]);
         localStorage.setItem("cart",JSON.stringify(cart));
+        if(passSup !="" && rePassSup != "")goToHome();
 
     }
     else
@@ -115,7 +116,9 @@ function signInData(e)
         {
             console.log("Genuine user");
             found = 1;
+            goToHome();
             break;
+            
         }
     }
     if(found == 0)
@@ -165,4 +168,7 @@ function passReset(e)
 function googleplay()
 {
     window.location.assign("https://www.h.com")
+}
+function goToHome(){
+    location.assign("job_feed.html");
 }
