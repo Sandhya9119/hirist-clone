@@ -5,7 +5,7 @@ var ios_jobs = [
         job_experience : "2 - 6 Years",
         job_location : "Multiple Locations",
         job_date : "8/26/2021",
-        job_href : ""  
+        job_href : "ios1.html"  
     },
     {
         job_name : "MSR IT Solution - iOS Developer - Objective C/Xcode",
@@ -13,7 +13,7 @@ var ios_jobs = [
         job_experience : "4 - 6 Years",
         job_location : "Kolkata",
         job_date : "8/24/2021",
-        job_href : "" 
+        job_href : "ios2.html" 
     },
     {
         job_name : "Resan Resource - React Native Developer - iOS/Android Apps",
@@ -55,7 +55,7 @@ var android_jobs = [
         job_experience : "1 - 3 Years",
         job_location : "Hyderabad",
         job_date : "8/21/2021",
-        job_href : ""  
+        job_href : "android1.html"  
     },
     {
         job_name : "Resan Resource - React Native Developer - iOS/Android Apps",
@@ -63,7 +63,7 @@ var android_jobs = [
         job_experience : "3 - 9 Years",
         job_location : "Delhi NCR",
         job_date : "8/20/2021",
-        job_href : "" 
+        job_href : "android2.html" 
     },
     {
         job_name : "Captech - Flutter Developer - iOS & Android Platform",
@@ -105,7 +105,7 @@ var js_jobs = [
         job_experience : "1 - 3 Years",
         job_location : "Pune",
         job_date : "8/26/2021",
-        job_href : ""  
+        job_href : "js1.html"  
     },
     {
         job_name : "LiveLike - Senior SDK Engineer - React.js/Javascript",
@@ -113,7 +113,7 @@ var js_jobs = [
         job_experience : "5 - 8 Years",
         job_location : "Gurugram",
         job_date : "8/25/2021",
-        job_href : "" 
+        job_href : "js2.html" 
     },
     {
         job_name : "Tracxn - Senior React Developer",
@@ -155,7 +155,7 @@ var react_jobs = [
         job_experience : "5 - 8 Years",
         job_location : "Gurugram",
         job_date : "8/25/2021",
-        job_href : ""  
+        job_href : "react1.html"  
     },
     {
         job_name : "Tracxn - SDE II - Full Stack/MERN Stack",
@@ -163,7 +163,7 @@ var react_jobs = [
         job_experience : "1 - 5 Years",
         job_location : "Banglore",
         job_date : "8/25/2021",
-        job_href : "" 
+        job_href : "react2.html" 
     },
     {
         job_name : "Ideapoke - Technical Architect - Java/J2EE Technologies",
@@ -231,16 +231,23 @@ function selLocation(){
 
 
 var type_of_jobs = document.getElementById("type_of_jobs").innerText;
-if(type_of_jobs == "Frontend Developer Jobs"){
+if(type_of_jobs == "My Job Feed"){
+    var frontend = document.getElementById("jobs");
+    display_jobs(frontend,js_jobs);
+    display_jobs(frontend,react_jobs);
+    display_jobs(frontend,ios_jobs);
+    display_jobs(frontend,android_jobs);
+}
+else if(type_of_jobs == "Frontend Developer Jobs"){
     var frontend = document.getElementById("jobs");
     display_jobs(frontend,js_jobs);
     display_jobs(frontend,react_jobs);
 }
-if(type_of_jobs == "React.js Jobs"){
+else if(type_of_jobs == "React.js Jobs"){
     var frontend = document.getElementById("jobs");
     display_jobs(frontend,react_jobs);
 }
-if(type_of_jobs == "Javascript Jobs"){
+else if(type_of_jobs == "Javascript Jobs"){
     var frontend = document.getElementById("jobs");
     display_jobs(frontend,js_jobs);
 }
@@ -371,8 +378,33 @@ function refine(type){
         document.getElementById("location").value = "";
     } 
     else if(desexp[0] != "Any" && desloc == ""){
-    
-    if(type == "mobile"){
+    if(type == "feed"){
+        ios_jobs.forEach(element => {
+            var presentexp = element.job_experience.split(" ");
+            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
+                jobs_filter.push(element);
+            }
+        });
+        android_jobs.forEach(element => {
+            var presentexp = element.job_experience.split(" ");
+            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
+                jobs_filter.push(element);
+            }
+        });
+        js_jobs.forEach(element => {
+            var presentexp = element.job_experience.split(" ");
+            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
+                jobs_filter.push(element);
+            }
+        });
+        react_jobs.forEach(element => {
+            var presentexp = element.job_experience.split(" ");
+            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
+                jobs_filter.push(element);
+            }
+        });
+    }
+    else if(type == "mobile"){
         ios_jobs.forEach(element => {
             var presentexp = element.job_experience.split(" ");
             if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
@@ -451,7 +483,33 @@ else{
 function refineloc(type){
     var desloc = document.getElementById("location").value;
     if(desloc != "Anywhere in India"){
-    if(type == "mobile"){
+    if(type == "feed"){
+        ios_jobs.forEach(element => {
+            var presentloc = element.job_location;
+            if(desloc == presentloc){
+                jobs_filter.push(element);
+            }
+        });
+        android_jobs.forEach(element => {
+            var presentloc = element.job_location;
+            if(desloc == presentloc){
+                jobs_filter.push(element);
+            }
+        });
+         js_jobs.forEach(element => {
+            var presentloc = element.job_location;
+            if(desloc == presentloc){
+                jobs_filter.push(element);
+            }
+        });
+        react_jobs.forEach(element => {
+            var presentloc = element.job_location;
+            if(desloc == presentloc){
+                jobs_filter.push(element);
+            }
+        });
+    }
+    else if(type == "mobile"){
         ios_jobs.forEach(element => {
             var presentloc = element.job_location;
             if(desloc == presentloc){
