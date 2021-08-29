@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Jobs</title>
+    <title>Job Feed</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
@@ -15,21 +14,21 @@
     <link rel="shortcut icon" href=https://static.hirist.com/resources/img/hirist/favicon.ico>
     </link>
 </head>
-
 <body>
     <div id="main-div">
         <div id="gallery">
             <div id="navbar">
                 <div>
+                    <div>
+                        <a href="index.html"><img src="images/hirist_logo.svg" alt="hirist_logo"></a>
+                    </div>
+                </div>
                 <div>
-                    <a href="index.html"><img src="images/hirist_logo.svg" alt="hirist_logo"></a>
-                </div>
-                </div>
-                <div style="color: black;">Mobile Applications</div>
-                <div style="color:#e9630c;">
-                    Frontend Developer
+                    Mobile Applications
                     <div class="bar"></div>
                 </div>
+                <div>
+                    <a href="frontend.html" style="color: black;text-decoration: none;">Frontend Developer</a></div>
                 <div>Backend Developer</div>
                 <div>More</div>
                 <div>Work from Home</div>
@@ -43,9 +42,9 @@
             </div>
 
             <div id="photos">
-                <img src="https://d3qr48lsanmyop.cloudfront.net/1595320989871.jpeg" alt="image">
-                <img src="https://d3qr48lsanmyop.cloudfront.net/1595320993078.jpeg" alt="image">
-                <img src="https://d3qr48lsanmyop.cloudfront.net/1595320996440.jpeg" alt="image">
+                <img src="https://d3qr48lsanmyop.cloudfront.net/1623218202618.jpeg" alt="image">
+                <img src="https://d3qr48lsanmyop.cloudfront.net/1623218205880.jpeg" alt="image">
+                <img src="https://d3qr48lsanmyop.cloudfront.net/1623218208796.jpeg" alt="image">
             </div>
 
             <div id="nav-jobs">
@@ -80,64 +79,53 @@
                     <div id="showlocation" class="disp">
                         <div class="tri"></div>
                         <div class="show">
-
+                
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="">
                                 <label for="">Anywhere in India</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Ahmedabad</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Banglore</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Chennai</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Delhi</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Gurugram</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Hyderabad</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Kolkata</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Mumbai</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Noida</label>
                             </div>
                             <div onclick="selLocation()">
-                                <input type="checkbox" name="" id="">
                                 <label for="">Pune</label>
                             </div>
-
+                
                         </div>
                         <div class="clear"></div>
                     </div>
-
+                
                 </div>
-                <div onclick="refine('js')">Refine</div>
+                <div onclick="refine('feed')">Refine</div>
             </div>
-
+            
         </div>
         <div id="jobs-info">
             <div id="jobs">
-                <h1 id="type_of_jobs">Javascript Jobs</h1>
+                <h1 id="type_of_jobs">My Job Feed</h1>
             </div>
             <div id="other-info">
                 <p>Features Employers</p>
@@ -158,8 +146,7 @@
             </div>
         </div>
     </div>
-
+    
     <script src="js/jobs-display.js"></script>
 </body>
-
 </html>
