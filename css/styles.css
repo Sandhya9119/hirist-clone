@@ -50,6 +50,7 @@ img {
   width: 90%;
   margin: auto;
   background-color: white;
+  padding-bottom: 50px;
 }
 .main2 {
   margin-top: 5%;
@@ -185,9 +186,11 @@ a:hover {
   line-height: 19px;
   color: rgba(0, 0, 0, 0.7);
   padding: 10px 10px;
+  text-align: left;
 }
 .pro5-bot4 {
-  padding: 10px 10px;
+  padding:  10px;
+  text-align: left;
 }
 .main2-head {
   font-family: "Nunito Sans", sans-serif;
