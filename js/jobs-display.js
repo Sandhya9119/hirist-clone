@@ -257,13 +257,6 @@ else if(type_of_jobs == "Android Jobs"){
     var mobile = document.getElementById("jobs");
     display_jobs(mobile,android_jobs);
 }
-else if(type_of_jobs == "My Job Feed"){
-    var feed = document.getElementById("jobs");
-    display_jobs(feed,ios_jobs);
-    display_jobs(feed,android_jobs); 
-    display_jobs(feed,js_jobs);
-    display_jobs(feed,react_jobs);  
-}
  
 
 
@@ -372,42 +365,14 @@ function refine(type){
     var desexp = document.getElementById("year").value.split(" ");
     if(desexp[0] == "" && desloc != "Anywhere in India"){
         refineloc(type);
-
         var filter = document.getElementById("jobs");
-
-        
         filter.innerHTML = "";
         display_jobs(filter,jobs_filter);
         document.getElementById("location").value = "";
     } 
     else if(desexp[0] != "Any" && desloc == ""){
-    if(type == "feed"){
-        ios_jobs.forEach(element => {
-            var presentexp = element.job_experience.split(" ");
-            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
-                jobs_filter.push(element);
-            }
-        });
-        android_jobs.forEach(element => {
-            var presentexp = element.job_experience.split(" ");
-            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
-                jobs_filter.push(element);
-            }
-        });
-        js_jobs.forEach(element => {
-            var presentexp = element.job_experience.split(" ");
-            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
-                jobs_filter.push(element);
-            }
-        });
-        react_jobs.forEach(element => {
-            var presentexp = element.job_experience.split(" ");
-            if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
-                jobs_filter.push(element);
-            }
-        });
-    }
-    else if(type == "mobile"){
+    
+    if(type == "mobile"){
         ios_jobs.forEach(element => {
             var presentexp = element.job_experience.split(" ");
             if(Number(desexp[2]) >= Number(presentexp[0]) && Number(desexp[0]) <= Number(presentexp[2])){
@@ -486,33 +451,7 @@ else{
 function refineloc(type){
     var desloc = document.getElementById("location").value;
     if(desloc != "Anywhere in India"){
-    if(type == "feed"){
-        ios_jobs.forEach(element => {
-            var presentloc = element.job_location;
-            if(desloc == presentloc){
-                jobs_filter.push(element);
-            }
-        });
-        android_jobs.forEach(element => {
-            var presentloc = element.job_location;
-            if(desloc == presentloc){
-                jobs_filter.push(element);
-            }
-        });
-        js_jobs.forEach(element => {
-            var presentloc = element.job_location;
-            if(desloc == presentloc){
-                jobs_filter.push(element);
-            }
-        });
-        react_jobs.forEach(element => {
-            var presentloc = element.job_location;
-            if(desloc == presentloc){
-                jobs_filter.push(element);
-            }
-        });
-    }
-    else if(type == "mobile"){
+    if(type == "mobile"){
         ios_jobs.forEach(element => {
             var presentloc = element.job_location;
             if(desloc == presentloc){

@@ -1,0 +1,351 @@
+body
+{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f1eded;
+}
+
+.sl1
+{
+    width: 310px; height: 160px;  margin-top: 170px;
+    background-color: white;
+}
+
+.outer
+    {
+        height: 200px;
+        width: 210px;
+        float: left;
+        background-color: white;
+    }
+
+    #i1
+    {
+        height: 200px;
+        width: 80px;
+        background-color: #171f5c;
+        float: left;
+        color: white;
+    }
+    
+    #i2
+    {
+        height: 200px;
+        width: 130px;
+        background-color: #171f5c;
+        float: left;
+        color: white;
+    }
+
+    #i3
+    {
+        height: 30px;
+        width: 100%;
+        background-color: #171f5c;
+        color: white;
+    }
+
+    .i4
+    {
+        height: 35px;
+        width: 100%;
+        background-color: #171f5c;
+        color: white;
+    }
+
+    .i5
+    {
+        height: 70px;
+        width: 100%;
+        background-color: #171f5c;
+        color: white;
+    }
+
+    .title
+    {
+        margin:0%;
+        padding: 0%;
+        font-size: 24px;
+        font-weight: 550;
+        line-height: 28px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .subtitle
+    {
+        margin:0%;
+        padding: 0%;
+        font-weight: 250;
+        line-height: 24px;
+        font-size: 16px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .slogo
+    {
+        text-align: center;
+        color: #6e6e6e;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #a
+    {
+        font-size: 16px; line-height: 22px; color: white;
+    }
+
+.o1
+{
+    margin: 25px;
+    float: left;
+    width: 800px;
+    height: fit-content;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#pstyle
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn1
+{
+    font-weight: 600;
+    width: 100px;
+    margin-left: 15px;
+    height: 42px;
+    margin-bottom: 15px;
+    border: 1px solid #e9630c;
+    background-color: #e9630c;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    line-height: 18px;
+}
+.btn2
+{
+    width: 120px;
+    margin-left: 10px;
+    height: 42px;
+    margin-bottom: 15px;
+    border: 1px solid #e9630c;
+    color: #e9630c;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: white;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+ 
+.btn11 {
+    clear: both;
+    float: left;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 42px;
+    margin-bottom: 15px;
+    border: 1px solid #e9630c;
+    background-color: #e9630c;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+
+}
+.smallbox
+{
+    width: 280px;
+    height: 70px;
+    background-color: #EEEEEE;
+    margin: 10px;
+    margin-left: 16px;
+    border-radius: 12px;
+}
+.smalls
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+#viji
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: -210px ;
+    width: 180px ;
+    float: right ;
+    margin-right: 30px;
+    margin-top: -15px;
+    padding-top: 10px;
+    color: #212529;
+}
+#hr{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000; 
+}
+#log{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 15px; 
+    color: #000000;
+}
+.log2{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 15px; 
+    color: #000000;
+    padding-top: 10px;
+}
+.mob{
+    font-weight: 50;
+    font-size: 16px;
+    line-height: 18px; 
+    font-family: sans-serif;
+    color: #000000;
+}
+
+#getapp
+{
+    width: 180px ;float: right; margin-right: 30px ;margin-top: 10px; padding-top: 10px;
+   
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px; 
+    font-family: sans-serif;
+    color: #000000;
+}
+#appmini{
+    font-weight: 400 ;
+    font-size: 15px;
+    line-height: 18px; 
+    color: #929292;
+}
+
+.narrow
+{
+    width: 320px; height: 55px;  margin-right: 24px;
+}
+.r1
+{
+    width: 320px; height: 390px;  float: left;background-color: white;
+}
+.im{
+    height: 80px;
+    width: 80px;
+}
+.d2
+{
+    float: left; width: 200px; margin: 15px;
+    font-weight: 450;
+    font-size: 14px;
+    color: #000000;
+    font-family: sans-serif;
+}
+.d3
+{
+    font-weight:100;
+    font-size: 14px;
+    color: #8f8a8a;
+}
+
+ 
+.btn11 {
+    clear: both;
+    float: left;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 42px;
+    margin-bottom: 15px;
+    border: 1px solid #e9630c;
+    background-color: #e9630c;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+
+}
+.smallbox
+{
+    width: 280px;
+    height: 70px;
+    background-color: #EEEEEE;
+    margin: 10px;
+    margin-left: 16px;
+    border-radius: 12px;
+}
+.smalls
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+#viji
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: -210px ;
+    width: 180px ;
+    float: right ;
+    margin-right: 30px;
+    margin-top: -15px;
+    padding-top: 10px;
+    color: #212529;
+}
+#hr{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000; 
+}
+#log{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 15px; 
+    color: #000000;
+}
+.log2{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 15px; 
+    color: #000000;
+    padding-top: 10px;
+}
+.mob{
+    font-weight: 50;
+    font-size: 16px;
+    line-height: 18px; 
+    font-family: sans-serif;
+    color: #000000;
+}
+
+#getapp
+{
+    width: 180px ;float: right; margin-right: 30px ;margin-top: 10px; padding-top: 10px;
+   
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px; 
+    font-family: sans-serif;
+    color: #000000;
+}
+#appmini{
+    font-weight: 400 ;
+    font-size: 15px;
+    line-height: 18px; 
+    color: #929292;
+}

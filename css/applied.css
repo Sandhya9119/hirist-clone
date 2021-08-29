@@ -1,0 +1,144 @@
+
+    body
+    {
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #f1eded;
+    }
+    .sl1
+    {
+        width: 310px; height: 120px; float: right; margin: 25px; margin-right: 90px;
+    }
+    .outer
+    {
+        height: 200px;
+        width: 210px;
+        float: left;
+    }
+
+    #i1
+    {
+        height: 200px;
+        width: 80px;
+        background-color: #171f5c;
+        float: left;
+        color: white;
+    }
+    
+    #i2
+    {
+        height: 200px;
+        width: 130px;
+        background-color: #171f5c;
+        float: left;
+        color: white;
+    }
+
+    #i3
+    {
+        height: 30px;
+        width: 100%;
+        background-color: #171f5c;
+        color: white;
+    }
+
+    .i4
+    {
+        height: 35px;
+        width: 100%;
+        background-color: #171f5c;
+        color: white;
+    }
+
+    .i5
+    {
+        height: 70px;
+        width: 100%;
+        background-color: #171f5c;
+        color: white;
+    }
+
+    .title
+    {
+        margin:0%;
+        padding: 0%;
+        font-size: 24px;
+        font-weight: 550;
+        line-height: 28px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .subtitle
+    {
+        margin:0%;
+        padding: 0%;
+        font-weight: 250;
+        line-height: 24px;
+        font-size: 16px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .slogo
+    {
+        text-align: center;
+        color: #6e6e6e;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #a
+    {
+        font-size: 16px; line-height: 22px; color: white;
+    }
+    .narrow
+{
+    width: 575px; height: 30px; font-size: bold; font-family: sans-serif; margin: 25px; margin-left: 80px;
+}
+.r1
+{
+    width: 320px; height: 310px; float: left; margin: 25px; margin-top: 10px; background-color: white; margin-left: 80px;
+}
+.im{
+    height: 80px;
+    width: 80px;
+}
+.d2
+{
+    float: left; width: 200px; margin: 15px;
+    font-weight: 450;
+    font-size: 14px;
+    color: #000000;
+    font-family: sans-serif;
+}
+.d3
+{
+    font-weight:100;
+    font-size: 14px;
+    color: #8f8a8a;
+}
+#getapp
+    {
+        width: 180px ;float: right; margin-right: 30px ;margin-top: 10px; padding-top: 10px;
+       
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px; 
+        font-family: sans-serif;
+        color: #000000;
+    }
+    .btn11 {
+        clear: both;
+        float: left;
+        width: 120px;
+        margin-top: 5px;
+        margin-left: 10px;
+        height: 42px;
+        margin-bottom: 15px;
+        border: 1px solid #e9630c;
+        background-color: #e9630c;
+        font-size: 14px;
+        border-radius: 4px;
+        color: white;
+        font-weight: 400;
+
+    }
