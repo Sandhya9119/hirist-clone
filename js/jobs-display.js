@@ -233,10 +233,11 @@ function selLocation(){
 var type_of_jobs = document.getElementById("type_of_jobs").innerText;
 if(type_of_jobs == "My Job Feed"){
     var frontend = document.getElementById("jobs");
+    display_jobs(frontend,android_jobs);
     display_jobs(frontend,js_jobs);
     display_jobs(frontend,react_jobs);
     display_jobs(frontend,ios_jobs);
-    display_jobs(frontend,android_jobs);
+    
 }
 else if(type_of_jobs == "Frontend Developer Jobs"){
     var frontend = document.getElementById("jobs");
@@ -253,8 +254,10 @@ else if(type_of_jobs == "Javascript Jobs"){
 }
 else if(type_of_jobs == "Mobile Application Jobs"){
     var mobile = document.getElementById("jobs");
-    display_jobs(mobile,ios_jobs);
     display_jobs(mobile,android_jobs);
+    display_jobs(mobile,ios_jobs);
+
+    
 }
 else if(type_of_jobs == "iOS Jobs"){
     var mobile = document.getElementById("jobs");
