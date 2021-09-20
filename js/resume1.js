@@ -128,5 +128,4 @@ window.onload=function(){
 }
 var getting=localStorage.getItem("info");
 var get=JSON.parse(getting);
-console.log(get);
 

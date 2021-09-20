@@ -1,11 +1,8 @@
 var count=0;
 function store(){
-    //console.log("Hello");
     var design=document.getElementById('regdesignation_1').value;
-    console.log(design);console.log("Hi");
     if(design == "")
     {
-        //console.log("Empty");
         var p2=document.getElementById("p1");
         p2.innerText="please enter designation";
         p2.style.color="red";

@@ -71,7 +71,7 @@ function signUpData(e)
     }
     else
     {
-        console.log("MisMatch");
+        alert("MisMatch");
         
     }
 }
@@ -107,7 +107,6 @@ function signInData(e)
     {
         if( (saved[i][0] === emailSin) && (saved[i][1] == passSin) )
         {
-            console.log("Genuine user");
             found = 1;
             goToHome();
             break;
@@ -116,7 +115,7 @@ function signInData(e)
     }
     if(found == 0)
     {
-        console.log("Invalid User!");
+        alert("Invalid User!");
     }
 
 }
@@ -141,7 +140,7 @@ function passReset(e)
     }
     if(found == 0)
     {
-        console.log("Not even registered!");
+        alert("Not even registered!");
     }
 
     if(emailpass === "")

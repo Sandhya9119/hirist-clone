@@ -38,8 +38,6 @@ co++;
 if(co == 4)
     co = 1;
 var sli = document.getElementById("sli");
-console.log(sli)
-console.log("hi")
 
 if(co == 1)
     sli.src = "https://d3qr48lsanmyop.cloudfront.net/1623847728390.jpeg"
@@ -52,14 +50,11 @@ sli.src = "https://d3qr48lsanmyop.cloudfront.net/1628668272024.jpeg"
 function changered()
 {
 var a =  document.getElementById("num");
-console.log(a)
 if(a.value == "")
 { 
    var e = document.getElementById("disp");
    var b =  document.getElementById("opt");
-   console.log("b is ",b)
 
-    console.log(e);
     e.style.display = "";
 }
 else if(a.value != "")
@@ -69,9 +64,7 @@ else if(a.value != "")
    e.style.color= "blue";
    e.style.textContent = "Please enter a valid number";
    var b =  document.getElementById("opt");
-   console.log("b is ",b)
 
-    console.log(e);
     e.textContent = "Message with link sent to download the app."
     e.style.color = "green";
     e.style.display = "";
