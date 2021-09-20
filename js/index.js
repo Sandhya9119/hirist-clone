@@ -3,12 +3,12 @@ var navdata = {
         {
             name : "iOS",
             image : "https://staticlogo.hirist.com/ios.png",
-            link : "D:\\hirist-clone\\ios.html" 
+            link : "landing_page/ios.html" 
         },
         {
             name : "Android",
             image : "https://staticlogo.hirist.com/android.png",
-            link : "D:\\hirist-clone\\android.html" 
+            link : "landing_page/android.html" 
         },
          {
             name : "React Native",
@@ -35,12 +35,12 @@ var navdata = {
         {
             name : "Javascript",
             image : "https://staticlogo.hirist.com/javascript.png",
-            link : "D:\\hirist-clone\\javascript.html" 
+            link : "landing_page/javascript.html" 
         },
         {
             name : "ReactJS",
             image : "https://staticlogo.hirist.com/reactjs.png",
-            link : "D:\\hirist-clone\\react.html" 
+            link : "landing_page/react.html" 
         },
          {
             name : "AngularJS",

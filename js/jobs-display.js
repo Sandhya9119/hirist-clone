@@ -5,7 +5,7 @@ var ios_jobs = [
         job_experience : "2 - 6 Years",
         job_location : "Multiple Locations",
         job_date : "8/26/2021",
-        job_href : "ios1.html"  
+        job_href : "../job_des_html/ios1.html"  
     },
     {
         job_name : "MSR IT Solution - iOS Developer - Objective C/Xcode",
@@ -13,7 +13,7 @@ var ios_jobs = [
         job_experience : "4 - 6 Years",
         job_location : "Kolkata",
         job_date : "8/24/2021",
-        job_href : "ios2.html" 
+        job_href : "../job_des_html/ios2.html" 
     },
     {
         job_name : "Resan Resource - React Native Developer - iOS/Android Apps",
@@ -55,7 +55,7 @@ var android_jobs = [
         job_experience : "1 - 3 Years",
         job_location : "Hyderabad",
         job_date : "8/21/2021",
-        job_href : "android1.html"  
+        job_href : "../job_des_html/android1.html"  
     },
     {
         job_name : "Resan Resource - React Native Developer - iOS/Android Apps",
@@ -63,7 +63,7 @@ var android_jobs = [
         job_experience : "3 - 9 Years",
         job_location : "Delhi NCR",
         job_date : "8/20/2021",
-        job_href : "android2.html" 
+        job_href : "../job_des_html/android2.html" 
     },
     {
         job_name : "Captech - Flutter Developer - iOS & Android Platform",
@@ -105,7 +105,7 @@ var js_jobs = [
         job_experience : "1 - 3 Years",
         job_location : "Pune",
         job_date : "8/26/2021",
-        job_href : "js1.html"  
+        job_href : "../job_des_html/js1.html"  
     },
     {
         job_name : "LiveLike - Senior SDK Engineer - React.js/Javascript",
@@ -113,7 +113,7 @@ var js_jobs = [
         job_experience : "5 - 8 Years",
         job_location : "Gurugram",
         job_date : "8/25/2021",
-        job_href : "js2.html" 
+        job_href : "../job_des_html/js2.html" 
     },
     {
         job_name : "Tracxn - Senior React Developer",
@@ -155,7 +155,7 @@ var react_jobs = [
         job_experience : "5 - 8 Years",
         job_location : "Gurugram",
         job_date : "8/25/2021",
-        job_href : "react1.html"  
+        job_href : "../job_des_html/react1.html"  
     },
     {
         job_name : "Tracxn - SDE II - Full Stack/MERN Stack",
@@ -163,7 +163,7 @@ var react_jobs = [
         job_experience : "1 - 5 Years",
         job_location : "Banglore",
         job_date : "8/25/2021",
-        job_href : "react2.html" 
+        job_href : "../job_des_html/react2.html" 
     },
     {
         job_name : "Ideapoke - Technical Architect - Java/J2EE Technologies",
