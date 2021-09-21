@@ -31,23 +31,19 @@
   padding-left: 0;
 }
 #str6 {
-  line-height: 30px;
-  display: inline-block;
-  padding: 0 15px;
+  padding-left: 0;
 }
 #str7 {
   padding-left: 0;
 }
 #str8 {
   padding-left: 0;
+  color: white;
 }
 #str9 {
   font-size: 15px;
 }
 #str10 {
-  color: white;
-}
-#str11 {
   color: white;
 }
 .reslis {
