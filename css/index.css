@@ -1,957 +1,524 @@
-body {
-  background-color: rgba(255, 250, 240, 0.9);
+body{
+    background-color: rgba(255, 250, 240, 0.9);
 }
-#navbar {
-  background-color: white;
-  width: 90%;
-  margin: auto;
-  border: 0.5px solid rgb(236, 234, 234);
-  position: relative;
+#navbar{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border: 0.5px solid rgb(236, 234, 234);
+    position: relative;
 }
-#navbar > div {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  display: inline-block;
-  height: 175px;
-  width: 16%;
-  /* background-color: rgb(170, 166, 160); */
-}
-#str1 {
-  font-size: 20px;
-  padding-left: 10px;
-}
-#str2 {
-  color: #ffffff;
-  text-decoration: none;
-}
-#str3 {
-  width: 30%;
-  padding: 15px 5px 0px 25px;
-}
-#str4 {
-  width: 30%;
-  padding: 15px 5px 0px 25px;
-}
-#str5 {
-  color: #ffffff;
-  text-decoration: none;
-}
-#str6 {
-  width: 30%;
-  padding: 15px 5px 0px 25px;
-}
-#str7 {
-  color: #ffffff;
-  text-decoration: none;
-}
-#str8 {
-  width: 20%;
-  margin: 0px 10px 0px 30px;
-}
-#str9 {
-  width: 23%;
-}
-#str10 {
-  width: 650px;
-}
-#str11 {
-  color: #e9630c;
-  text-decoration: none;
-}
-#str12 {
-  color: rgba(0, 0, 0, 0.5);
-}
-#str13 {
-  color: rgba(0, 0, 0, 0.5);
-}
-#str14 {
-  color: rgba(0, 0, 0, 0.5);
-}
-#str15 {
-  color: rgba(0, 0, 0, 0.5);
-}
-div > a {
-  text-decoration: none;
-}
-div p {
-  padding-top: 30px;
-  color: black;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: center;
-  line-height: 22px;
-  margin: 0% 5%;
-}
-#navbar i {
-  margin: 25px 83px 15px;
-  font-size: 35px;
-  color: lightgray;
-}
-#navbar > div:nth-child(1) i {
-  font-size: 50px;
-  margin-top: 10px;
-}
-.bar {
-  position: absolute;
-  bottom: 0px;
-  height: 2.5px;
-  width: 70%;
-  background-color: #e9630c;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin: 0% 15%;
+#navbar > div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    height: 175px;
+    width: 16%;
+    /* background-color: rgb(170, 166, 160); */
 }
 
-.change-orange {
-  cursor: pointer;
-  color: #e9630c;
+div > a{
+    text-decoration: none;
 }
-#categories-info {
-  width: 90%;
-  margin: auto;
-  position: relative;
+div  p {
+    padding-top: 30px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    margin: 0% 5%;
+}
+#navbar i{
+    margin: 25px 83px 15px;
+    font-size: 35px;
+    color: lightgray;
+}
+#navbar > div:nth-child(1) i{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.bar{
+    position: absolute;
+    bottom: 0px;
+    height: 2.5px;
+    width: 70%;
+    background-color: #e9630c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0% 15%;
+}
+
+.change-orange{
+    cursor: pointer;
+    color: #e9630c;
+}
+#categories-info{
+    width: 90%;
+    margin :auto;
+    position: relative;
 }
 #sub-categories {
-  width: 50%;
-  display: grid;
-  grid-template-columns: 22% 22% 22% 22%;
-  padding: 25px 30px 10px;
-  grid-gap: 4%;
-  background-color: white;
-  height: 220px;
-  border: 0.5px solid rgb(236, 234, 234);
-  border-bottom-right-radius: 80px;
-  border-top: 0px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding: 25px 30px 10px;
+    grid-gap : 4%;
+    background-color: white;
+    height: 220px;
+    border: 0.5px solid rgb(236, 234, 234);
+    border-bottom-right-radius: 80px;
+    border-top: 0px;
 }
-#sub-categories > div {
-  height: 80px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: white;
-  font-family: "Nunito Sans", sans-serif;
+#sub-categories > div{
+    height: 80px;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    text-align: center;
+    line-height: 80px;
+    font-size: 17px ;
+}
+#sub-categories > div > a{
+    color: white;
+    font-weight: 600;
+}
 
-  text-align: center;
-  line-height: 80px;
-  font-size: 17px;
+#categories-info{
+    display: flex;
+   
 }
-#sub-categories > div > a {
-  color: white;
-  font-weight: 600;
+#companies > img{
+    margin: 50px 0px 50px 60px;
+    width: 120px;
 }
 
-#categories-info {
-  display: flex;
-}
-#companies > img {
-  margin: 50px 0px 50px 60px;
-  width: 120px;
-}
 
 #spin:after {
-  content: "";
+  content:"";
   animation: spin 20s linear infinite;
 }
 @keyframes spin {
-  0% {
-    content: "M";
-  }
-  0.5% {
-    content: "Ma";
-  }
-  1% {
-    content: "Mac";
-  }
-  1.5% {
-    content: "Mach";
-  }
-  2% {
-    content: "Machi";
-  }
-  2.5% {
-    content: "Machin";
-  }
-  3% {
-    content: "Machine";
-  }
-  3.5% {
-    content: "Machine ";
-  }
-  4% {
-    content: "Machine L";
-  }
-  4.5% {
-    content: "Machine Le";
-  }
-  5% {
-    content: "Machine Lea";
-  }
-  5.5% {
-    content: "Machine Lear";
-  }
-  6% {
-    content: "Machine Learn";
-  }
-  6.5% {
-    content: "Machine Learni";
-  }
-  7% {
-    content: "Machine Learnin";
-  }
-  7.5% {
-    content: "Machine Learning";
-  }
-  8% {
-    content: "Machine Learning";
-  }
-  8.5% {
-    content: "Machine Learning";
-  }
-  9% {
-    content: "Machine Learning";
-  }
-  9.5% {
-    content: "Machine Learnin";
-  }
-  10% {
-    content: "Machine Learni";
-  }
-  10.5% {
-    content: "Machine Learn";
-  }
-  11% {
-    content: "Machine Lear";
-  }
-  11.5% {
-    content: "Machine Lea";
-  }
-  12% {
-    content: "Machine Le";
-  }
-  12.5% {
-    content: "Machine L";
-  }
-  13% {
-    content: "Machine ";
-  }
-  13.5% {
-    content: "Machine";
-  }
-  14% {
-    content: "Machin";
-  }
-  14.5% {
-    content: "Machi";
-  }
-  15% {
-    content: "Mach";
-  }
-  15.5% {
-    content: "Mac";
-  }
-  16% {
-    content: "Ma";
-  }
-  16.5% {
-    content: "M";
-  }
-  17% {
-    content: "";
-  }
+  0% { content:"M"}
+  0.5% { content:"Ma"}
+  1% { content:"Mac"}
+  1.5% { content:"Mach"}
+  2% { content:"Machi"}
+  2.5% { content:"Machin"}
+  3% { content:"Machine"}
+  3.5% { content:"Machine "}
+  4% { content:"Machine L"}
+  4.5% { content:"Machine Le"}
+  5% { content:"Machine Lea"}
+  5.5% { content:"Machine Lear"}
+  6% { content:"Machine Learn"}
+  6.5% { content:"Machine Learni"}
+  7% { content:"Machine Learnin"}
+  7.5% { content:"Machine Learning"}
+  8% { content:"Machine Learning"}
+  8.5% { content:"Machine Learning"}
+  9% { content:"Machine Learning"}
+  9.5% { content:"Machine Learnin"}
+  10% { content:"Machine Learni"}
+  10.5% { content:"Machine Learn"}
+  11% { content:"Machine Lear"}
+  11.5% { content:"Machine Lea"}
+  12% { content:"Machine Le"}
+  12.5% { content:"Machine L"}
+  13% { content:"Machine "}
+  13.5% { content:"Machine"}
+  14% { content:"Machin"}
+  14.5% { content:"Machi"}
+  15% { content:"Mach"}
+  15.5% { content:"Mac"}
+  16% { content:"Ma"}
+  16.5% { content:"M"}
+  17% { content:""}
 
-  17.5% {
-    content: "Re";
-  }
-  18% {
-    content: "Rea";
-  }
-  18.5% {
-    content: "Reac";
-  }
-  19% {
-    content: "React";
-  }
-  19.5% {
-    content: "ReactJ";
-  }
-  20% {
-    content: "ReactJS";
-  }
-  20.5% {
-    content: "ReactJS ";
-  }
-  21% {
-    content: "ReactJS D";
-  }
-  21.5% {
-    content: "ReactJS De";
-  }
-  22% {
-    content: "ReactJS Dev";
-  }
-  22.5% {
-    content: "ReactJS Deve";
-  }
-  23% {
-    content: "ReactJS Devel";
-  }
-  23.5% {
-    content: "ReactJS Develo";
-  }
-  24% {
-    content: "ReactJS Develop";
-  }
-  24.5% {
-    content: "ReactJS Develope";
-  }
-  25% {
-    content: "ReactJS Developer";
-  }
-  25.5% {
-    content: "ReactJS Developer";
-  }
-  26% {
-    content: "ReactJS Developer";
-  }
-  26.5% {
-    content: "ReactJS Developer";
-  }
-  27% {
-    content: "ReactJS Develope";
-  }
-  27.5% {
-    content: "ReactJS Develop";
-  }
-  28% {
-    content: "ReactJS Develo";
-  }
-  28.5% {
-    content: "ReactJS Devel";
-  }
-  29% {
-    content: "ReactJS Deve";
-  }
-  29.5% {
-    content: "ReactJS Dev";
-  }
-  30% {
-    content: "ReactJS De";
-  }
-  30.5% {
-    content: "ReactJS D";
-  }
-  31% {
-    content: "ReactJS ";
-  }
-  31.5% {
-    content: "ReactJS";
-  }
-  32% {
-    content: "ReactJ";
-  }
-  32.5% {
-    content: "React";
-  }
-  33% {
-    content: "Reac";
-  }
-  33.5% {
-    content: "Rea";
-  }
-  34% {
-    content: "Re";
-  }
-  34.5% {
-    content: "R";
-  }
-  35% {
-    content: "";
-  }
+  17.5% { content:"Re"}
+  18% { content:"Rea"}
+  18.5% { content:"Reac"}
+  19% { content:"React"}
+  19.5% { content:"ReactJ"}
+  20% { content:"ReactJS"}
+  20.5% { content:"ReactJS "}
+  21% { content:"ReactJS D"}
+  21.5% { content:"ReactJS De"}
+  22% { content:"ReactJS Dev"}
+  22.5% { content:"ReactJS Deve"}
+  23% { content:"ReactJS Devel"}
+  23.5% { content:"ReactJS Develo"}
+  24% { content:"ReactJS Develop"}
+  24.5% { content:"ReactJS Develope"}
+  25% { content:"ReactJS Developer"}
+  25.5% { content:"ReactJS Developer"}
+  26% { content:"ReactJS Developer"}
+  26.5% { content:"ReactJS Developer"}
+  27% { content:"ReactJS Develope"}
+  27.5% { content:"ReactJS Develop"}
+  28% { content:"ReactJS Develo"}
+  28.5% { content:"ReactJS Devel"}
+  29% { content:"ReactJS Deve"}
+  29.5% { content:"ReactJS Dev"}
+  30% { content:"ReactJS De"}
+  30.5% { content:"ReactJS D"}
+  31% { content:"ReactJS "}
+  31.5% { content:"ReactJS"}
+  32% { content:"ReactJ"}
+  32.5% { content:"React"}
+  33% { content:"Reac"}
+  33.5% { content:"Rea"}
+  34% { content:"Re"}
+  34.5% { content:"R"}
+  35% { content:""}
 
-  35.5% {
-    content: "P";
-  }
-  36% {
-    content: "Py";
-  }
-  36.5% {
-    content: "Pyt";
-  }
-  37% {
-    content: "Pyth";
-  }
-  37.5% {
-    content: "Pytho";
-  }
-  38% {
-    content: "Python";
-  }
-  38.5% {
-    content: "Python ";
-  }
-  39% {
-    content: "Python D";
-  }
-  39.5% {
-    content: "Python De";
-  }
-  40% {
-    content: "Python Dev";
-  }
-  40.5% {
-    content: "Python Deve";
-  }
-  41% {
-    content: "Python Devel";
-  }
-  41.5% {
-    content: "Python Develo";
-  }
-  42% {
-    content: "Python Develop";
-  }
-  42.5% {
-    content: "Python Develope";
-  }
-  43% {
-    content: "Python Developer";
-  }
-  43.5% {
-    content: "Python Developer";
-  }
-  44% {
-    content: "Python Developer";
-  }
-  44.5% {
-    content: "Python Developer";
-  }
-  45% {
-    content: "Python Develope";
-  }
-  45.5% {
-    content: "Python Develop";
-  }
-  46% {
-    content: "Python Develo";
-  }
-  46.5% {
-    content: "Python Devel";
-  }
-  47% {
-    content: "Python Deve";
-  }
-  47.5% {
-    content: "Python Dev";
-  }
-  48% {
-    content: "Python De";
-  }
-  48.5% {
-    content: "Python D";
-  }
-  49% {
-    content: "Python ";
-  }
-  49.5% {
-    content: "Python";
-  }
-  50% {
-    content: "Pytho";
-  }
-  50.5% {
-    content: "Pyth";
-  }
-  51% {
-    content: "Pyt";
-  }
-  51.5% {
-    content: "Py";
-  }
-  52% {
-    content: "P";
-  }
-  52.5% {
-    content: "";
-  }
+  
+  35.5% { content:"P"}
+  36% { content:"Py"}
+  36.5% { content:"Pyt"}
+  37% { content:"Pyth"}
+  37.5% { content:"Pytho"}
+  38% { content:"Python"}
+  38.5% { content:"Python "}
+  39% { content:"Python D"}
+  39.5% { content:"Python De"}
+  40% { content:"Python Dev"}
+  40.5% { content:"Python Deve"}
+  41% { content:"Python Devel"}
+  41.5% { content:"Python Develo"}
+  42% { content:"Python Develop"}
+  42.5% { content:"Python Develope"}
+  43% { content:"Python Developer"}
+  43.5% { content:"Python Developer"}
+  44% { content:"Python Developer"}
+  44.5% { content:"Python Developer"}
+  45% { content:"Python Develope"}
+  45.5% { content:"Python Develop"}
+  46% { content:"Python Develo"}
+  46.5% { content:"Python Devel"}
+  47% { content:"Python Deve"}
+  47.5% { content:"Python Dev"}
+  48% { content:"Python De"}
+  48.5% { content:"Python D"}
+  49% { content:"Python "}
+  49.5% { content:"Python"}
+  50% { content:"Pytho"}
+  50.5% { content:"Pyth"}
+  51% { content:"Pyt"}
+  51.5% { content:"Py"}
+  52% { content:"P"}
+  52.5% { content:""}
+  
+ 
+  
+  53% { content:"A"}
+  53.5% { content:"AW"}
+  54% { content:"AWS"}
+  54.5% { content:"AWS "}
+  55% { content:"AWS E"}
+  55.5% { content:"AWS En"}
+  56% { content:"AWS Eng"}
+  56.5% { content:"AWS Engi"}
+  57% { content:"AWS Engin"}
+  57.5% { content:"AWS Engine"}
+  58% { content:"AWS Enginee"}
+  58.5% { content:"AWS Engineer"}
+  59% { content:"AWS Engineer"}
+  59.5% { content:"AWS Engineer"}
+  60% { content:"AWS Engineer"}
+  60.5% { content:"AWS Enginee"}
+  61% { content:"AWS Engine"}
+  61.5% { content:"AWS Engin"}
+  62% { content:"AWS Engi"}
+  62.5% { content:"AWS Eng"}
+  63% { content:"AWS En"}
+  63.5% { content:"AWS E"}
+  64% { content:"AWS "}
+  64.5% { content:"AWS"}
+  65% { content:"AW"}
+  65.5% { content:"A"}
+  66% { content:""}
 
-  53% {
-    content: "A";
-  }
-  53.5% {
-    content: "AW";
-  }
-  54% {
-    content: "AWS";
-  }
-  54.5% {
-    content: "AWS ";
-  }
-  55% {
-    content: "AWS E";
-  }
-  55.5% {
-    content: "AWS En";
-  }
-  56% {
-    content: "AWS Eng";
-  }
-  56.5% {
-    content: "AWS Engi";
-  }
-  57% {
-    content: "AWS Engin";
-  }
-  57.5% {
-    content: "AWS Engine";
-  }
-  58% {
-    content: "AWS Enginee";
-  }
-  58.5% {
-    content: "AWS Engineer";
-  }
-  59% {
-    content: "AWS Engineer";
-  }
-  59.5% {
-    content: "AWS Engineer";
-  }
-  60% {
-    content: "AWS Engineer";
-  }
-  60.5% {
-    content: "AWS Enginee";
-  }
-  61% {
-    content: "AWS Engine";
-  }
-  61.5% {
-    content: "AWS Engin";
-  }
-  62% {
-    content: "AWS Engi";
-  }
-  62.5% {
-    content: "AWS Eng";
-  }
-  63% {
-    content: "AWS En";
-  }
-  63.5% {
-    content: "AWS E";
-  }
-  64% {
-    content: "AWS ";
-  }
-  64.5% {
-    content: "AWS";
-  }
-  65% {
-    content: "AW";
-  }
-  65.5% {
-    content: "A";
-  }
-  66% {
-    content: "";
-  }
 
-  66.5% {
-    content: "i";
-  }
-  67% {
-    content: "iO";
-  }
-  67.5% {
-    content: "iOT";
-  }
-  68% {
-    content: "iOT ";
-  }
-  68.5% {
-    content: "iOT E";
-  }
-  69% {
-    content: "iOT En";
-  }
-  69.5% {
-    content: "iOT Eng";
-  }
-  70% {
-    content: "iOT Engi";
-  }
-  70.5% {
-    content: "iOT Engin";
-  }
-  71% {
-    content: "iOT Engine";
-  }
-  71.5% {
-    content: "iOT Enginee";
-  }
-  72% {
-    content: "iOT Engineer";
-  }
-  72.5% {
-    content: "iOT Engineer";
-  }
-  73% {
-    content: "iOT Engineer";
-  }
-  73.5% {
-    content: "iOT Engineer";
-  }
-  74% {
-    content: "iOT Enginee";
-  }
-  74.5% {
-    content: "iOT Engine";
-  }
-  75% {
-    content: "iOT Engin";
-  }
-  75.5% {
-    content: "iOT Engi";
-  }
-  76% {
-    content: "iOT Eng";
-  }
-  76.5% {
-    content: "iOT En";
-  }
-  77% {
-    content: "iOT E";
-  }
-  77.5% {
-    content: "iOT ";
-  }
-  78% {
-    content: "iOT";
-  }
-  78.5% {
-    content: "iO";
-  }
-  79% {
-    content: "i";
-  }
-  79.5% {
-    content: "";
-  }
 
-  80% {
-    content: "A";
-  }
-  80.5% {
-    content: "Au";
-  }
-  81% {
-    content: "Aug";
-  }
-  81.5% {
-    content: "Augm";
-  }
-  82% {
-    content: "Augme";
-  }
-  82.5% {
-    content: "Augmen";
-  }
-  83% {
-    content: "Augment";
-  }
-  83.5% {
-    content: "Augmente";
-  }
-  84% {
-    content: "Augmented ";
-  }
-  84.5% {
-    content: "Augmented R";
-  }
-  85% {
-    content: "Augmented Re";
-  }
-  85.5% {
-    content: "Augmented Rea";
-  }
-  86% {
-    content: "Augmented Real";
-  }
-  86.5% {
-    content: "Augmented Reali";
-  }
-  87% {
-    content: "Augmented Realit";
-  }
-  87.5% {
-    content: "Augmented Reality";
-  }
-  88% {
-    content: "Augmented Reality";
-  }
-  88.5% {
-    content: "Augmented Reality";
-  }
-  89% {
-    content: "Augmented Reality";
-  }
-  89.5% {
-    content: "Augmented Realit";
-  }
-  90% {
-    content: "Augmented Reali";
-  }
-  90.5% {
-    content: "Augmented Real";
-  }
-  91% {
-    content: "Augmented Rea";
-  }
-  91.5% {
-    content: "Augmented Re";
-  }
-  92% {
-    content: "Augmented R";
-  }
-  92.5% {
-    content: "Augmented ";
-  }
-  93% {
-    content: "Augmented";
-  }
-  93.5% {
-    content: "Augmente";
-  }
-  94% {
-    content: "Augment";
-  }
-  94.5% {
-    content: "Augmen";
-  }
-  95% {
-    content: "Augme";
-  }
-  95.5% {
-    content: "Augm";
-  }
-  96% {
-    content: "Aug";
-  }
-  96.5% {
-    content: "Au";
-  }
-  97% {
-    content: "A";
-  }
-  97.5% {
-    content: "";
-  }
+  66.5% { content:"i"}
+  67% { content:"iO"}
+  67.5% { content:"iOT"}
+  68% { content:"iOT "}
+  68.5% { content:"iOT E"}
+  69% { content:"iOT En"}
+  69.5% { content:"iOT Eng"}
+  70% { content:"iOT Engi"}
+  70.5% { content:"iOT Engin"}
+  71% { content:"iOT Engine"}
+  71.5% { content:"iOT Enginee"}
+  72% { content:"iOT Engineer"}
+  72.5% { content:"iOT Engineer"}
+  73% { content:"iOT Engineer"}
+  73.5% { content:"iOT Engineer"}
+  74% { content:"iOT Enginee"}
+  74.5% { content:"iOT Engine"}
+  75% { content:"iOT Engin"}
+  75.5% { content:"iOT Engi"}
+  76% { content:"iOT Eng"}
+  76.5% { content:"iOT En"}
+  77% { content:"iOT E"}
+  77.5% { content:"iOT "}
+  78% { content:"iOT"}
+  78.5% { content:"iO"}
+  79% { content:"i"}
+  79.5% { content:""}
+
+
+  
+  80% { content:"A"}
+  80.5% { content:"Au"}
+  81% { content:"Aug"}
+  81.5% { content:"Augm"}
+  82% { content:"Augme"}
+  82.5% { content:"Augmen"}
+  83% { content:"Augment"}
+  83.5% { content:"Augmente"}
+  84% { content:"Augmented "}
+  84.5% { content:"Augmented R"}
+  85% { content:"Augmented Re"}
+  85.5% { content:"Augmented Rea"}
+  86% { content:"Augmented Real"}
+  86.5% { content:"Augmented Reali"}
+  87% { content:"Augmented Realit"}
+  87.5% { content:"Augmented Reality"}
+  88% { content:"Augmented Reality"}
+  88.5% { content:"Augmented Reality"}
+  89% { content:"Augmented Reality"}
+  89.5% { content:"Augmented Realit"}
+  90% { content:"Augmented Reali"}
+  90.5% { content:"Augmented Real"}
+  91% { content:"Augmented Rea"}
+  91.5% { content:"Augmented Re"}
+  92% { content:"Augmented R"}
+  92.5% { content:"Augmented "}
+  93% { content:"Augmented"}
+  93.5% { content:"Augmente"}
+  94% { content:"Augment"}
+  94.5% { content:"Augmen"}
+  95% { content:"Augme"}
+  95.5% { content:"Augm"}
+  96% { content:"Aug"}
+  96.5% { content:"Au"}
+  97% { content:"A"}
+  97.5% { content:""}
+
+
 }
 
-#animate {
-  position: relative;
-  width: 50%;
-  margin: auto;
-  height: 75px;
+
+#animate{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    height: 75px;
 }
-#animate > p,
-#spin {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 300;
-  font-size: 35px;
-  line-height: 57px;
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
+#animate > p,#spin{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 57px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
 }
 #spin {
-  color: #e9630c;
+  color:#e9630c;
   font-weight: 400;
 }
-#filters > div {
-  display: inline-block;
-  box-shadow: 1px 1px 1px 1px rgba(128, 126, 126, 0.29);
-  justify-content: space-around;
+#filters > div{
+    display: inline-block;
+    box-shadow: 1px 1px 1px 1px rgba(128, 126, 126, 0.29);
+    justify-content: space-around;
 }
-.show {
-  padding: 10px 0px;
-  height: 280px;
-  width: 200px;
-  float: left;
-  background-color: white;
-  border: 1px solid lightgray;
-  border-radius: 4px;
+.show{
+    padding: 10px 0px;
+    height: 280px;
+    width: 200px;
+    float: left;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
 }
-.show > div {
-  height: 40px;
-  padding: 0px 10px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 40px;
-  color: rgb(63, 59, 59);
+.show > div{
+    height: 40px;
+    padding:0px 10px;
+    font-family:  'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px; 
+    color: rgb(63, 59, 59);
 }
-.show > div:hover {
-  background-color: rgb(211, 236, 243);
+.show > div:hover{
+    background-color: rgb(211, 236, 243);
 }
-.clear {
-  clear: both;
+.clear{
+    clear: both;
 }
-.disp {
-  display: none;
-  position: absolute;
-  z-index: 1;
+.disp{
+    display: none;
+    position: absolute;
+    z-index: 1;
 }
-#filters {
-  background-color: white;
-  position: relative;
-  width: 50%;
-  margin: 0px auto 30px;
-  display: grid;
-  grid-template-columns: 42% 25% 25% 8%;
-  height: 50px;
+#filters{
+    background-color: white;
+    position: relative;
+    width: 50%;
+    margin: 0px auto 30px;
+    display: grid;
+    grid-template-columns: 42% 25% 25% 8%;
+    height: 50px;
 }
-#filters > div:nth-child(4),
-#filters > div:nth-child(2) {
-  border-left: none;
+#filters > div:nth-child(4),#filters > div:nth-child(2){
+    border-left: none;
 }
-#filters > div:nth-child(3) {
-  border-right: none;
+#filters > div:nth-child(3){
+    border-right: none;
 }
-#filters > div:nth-child(1) {
-  display: flex;
+#filters > div:nth-child(1){
+    display: flex;
+
 }
-#filters > div:nth-child(1) > i {
-  color: lightgray;
-  padding: 17px 5px 0px 10px;
+#filters > div:nth-child(1) > i{
+    color: lightgray;
+    padding:17px 5px 0px 10px;
 }
-#filters > div {
-  border: 0.5px solid rgb(223, 217, 217);
+#filters > div{
+    border: 0.5px solid rgb(223, 217, 217);
 }
-#filters input {
-  width: 98%;
-  cursor: pointer;
-  height: 50px;
-  border: none;
-  outline: none;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 50px;
-  padding-left: 10px;
+#filters input{
+    width: 98%;
+    cursor: pointer;
+    height: 50px;
+    border: none;
+    outline:none;
+    font-family:  'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px; 
+    padding-left: 10px;
 }
-#filters > div:hover {
-  cursor: pointer;
+#filters >div:hover{
+    cursor: pointer;
 }
 
-#go {
-  width: 86%;
-  height: 86%;
-  margin: 7%;
-  background-color: #e9630c;
-  border-radius: 6px;
-  text-align: center;
+#go{
+    width: 86%;
+    height: 86%;
+    margin: 7%;
+    background-color: #e9630c;
+    border-radius: 6px;
+    text-align: center;
 }
-#go > a {
-  line-height: 43px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  color: white;
+#go > a{
+    line-height: 43px;
+    font-family:  'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
 }
-.tri {
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 10px solid rgb(235, 227, 227);
-  position: relative;
-  margin-left: 10px;
+.tri{
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid rgb(235, 227, 227);
+    position: relative;
+    margin-left: 10px;
 }
-#showlocation > .show {
-  overflow-y: scroll;
+#showlocation > .show{
+    overflow-y: scroll;
+    
 }
-#showexp > .show {
-  width: 180px;
+#showexp > .show{
+    width: 180px;    
 }
-.show input {
-  height: 15px !important;
-  width: 15px !important;
-  line-height: 40px !important;
+.show input{
+    height: 15px !important;
+    width: 15px !important;
+    line-height: 40px !important;
 }
-#navigation-bar {
-  width: 90%;
-  margin: 15px auto 30px;
-  display: flex;
-  gap: 2%;
+#navigation-bar{
+    width: 90%;
+    margin: 15px auto 30px;
+    display: flex;
+    gap: 2%;
 }
-#navigation-bar > div:nth-child(2) > a {
-  display: flex;
-  flex-direction: row;
+#navigation-bar > div:nth-child(2) >a{
+    display: flex;
+    flex-direction: row;
 }
-#navigation-bar > div:nth-child(2) p {
-  margin: 0px;
-  padding: 0px 15px;
-  color: #e9630c;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 40px;
+#navigation-bar > div:nth-child(2) p{
+   margin: 0px ;
+   padding: 0px 15px ;
+   color: #e9630c;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 40px;
 }
-#navigation-bar img {
-  width: 24%;
-  margin: 15px 30px 0px;
+#navigation-bar img{
+    width: 24%;
+    margin: 15px 30px 0px;
 }
-#navigation-bar > div:nth-child(2) a,
-#navigation-bar > div:nth-child(3) a {
-  color: #e9630c;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  line-height: 40px;
+#navigation-bar > div:nth-child(2) a,#navigation-bar > div:nth-child(3) a{
+    color: #e9630c;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    
 }
-#navigation-bar > div:nth-child(2) {
-  width: 14%;
-  border: 1px solid #e9630c;
-  border-radius: 30px;
-  background-color: white;
-  height: 40px;
-  margin-left: 380px;
+#navigation-bar > div:nth-child(2){
+    width: 14%;
+    border: 1px solid #e9630c;
+    border-radius: 30px;
+    background-color: white;
+    height: 40px;
+    margin-left: 380px;
 }
-#navigation-bar > div:nth-child(2) i {
-  line-height: 40px;
-  font-size: 30px;
-  padding-left: 10px;
+#navigation-bar > div:nth-child(2) i{
+    line-height: 40px;
+    font-size: 30px;
+   padding-left: 10px;
 }
-#navigation-bar > div:nth-child(3) {
-  width: 10%;
-  border: 1px solid #e9630c;
-  border-radius: 4px;
-  background-color: white;
+#navigation-bar > div:nth-child(3){
+    width: 10%;
+    border: 1px solid #e9630c;
+    border-radius: 4px;
+    background-color: white;
+    
+    height: 40px;
+    text-align: center;
+}
+#navigation-bar > div:nth-child(4){
+    width: 12%;
+    border: 1px solid #e9630c;
+    border-radius: 4px;
+    background-color: #e9630c;
+    height: 40px;
+    text-align: center;
+}
+#navigation-bar > div:nth-child(4) i, #navigation-bar > div:nth-child(4) a{
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    padding-left: 0px 10px;
+}
+#navigation-bar > div:nth-child(4) a{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0px 10px;
+    font-weight: 400;
 
-  height: 40px;
-  text-align: center;
-}
-#navigation-bar > div:nth-child(4) {
-  width: 12%;
-  border: 1px solid #e9630c;
-  border-radius: 4px;
-  background-color: #e9630c;
-  height: 40px;
-  text-align: center;
-}
-#navigation-bar > div:nth-child(4) i,
-#navigation-bar > div:nth-child(4) a {
-  color: white;
-  font-weight: 200;
-  font-size: 16px;
-  text-align: center;
-  line-height: 40px;
-  padding-left: 0px 10px;
-}
-#navigation-bar > div:nth-child(4) a {
-  font-family: "Nunito Sans", sans-serif;
-  padding: 0px 10px;
-  font-weight: 400;
 }

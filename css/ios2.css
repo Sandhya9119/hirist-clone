@@ -215,6 +215,15 @@ body
     color: #000000;
 }
 
+#ccc
+{
+    margin:15px; float: left; border-radius: 6px;
+}
+
+.commons
+{
+    text-decoration: none; color: #6e6e6e; font-weight: bold;
+}
 #getapp
 {
     width: 180px ;float: right; margin-right: 30px ;margin-top: 10px; padding-top: 10px;
