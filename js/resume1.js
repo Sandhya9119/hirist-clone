@@ -123,9 +123,9 @@ function store(){
 window.localStorage.setItem("info",JSON.stringify(profile)); 
 }
 }
-window.onload=function(){
+/* window.onload=function(){
     document.getElementById("registeruser").onsubmit=store
-}
+} */
 var getting=localStorage.getItem("info");
 var get=JSON.parse(getting);
 

@@ -28,7 +28,6 @@ function store(){
         design:design,
         organisation:organisation,
         salary:salary,
-       
     }
     if(count === 0)
     {
@@ -38,4 +37,16 @@ window.localStorage.setItem("edu",JSON.stringify(profile));
 }
 window.onload=function(){
     document.getElementById("professionForm").onsubmit=store
+} 
+
+function per()
+{
+
+    var init = localStorage.getItem("ent");
+
+
+    const entry = {
+        enter : "yes"
+    }
+    localStorage.setItem("ent", JSON.stringify(entry));
 }

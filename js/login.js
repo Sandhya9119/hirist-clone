@@ -1,3 +1,14 @@
+var somethings_json = localStorage.getItem("log");
+var logs = JSON.parse(somethings_json);
+
+if(logs == null || logs == undefined) 
+    var placeHolder1 = 0;
+else if(logs.log === "yes")
+    location.assign("job_feed.html");
+else
+    var placeHolder2 = 0;
+
+
 if(localStorage.getItem("cart") === null)
 {
     localStorage.setItem("cart", JSON.stringify([]));
@@ -61,7 +72,10 @@ function signUpData(e)
     
     if(passSup == rePassSup)
     {
-
+        const logs = {
+            log : "yes"
+        }
+        localStorage.setItem("log", JSON.stringify(logs));
         var cart_json = localStorage.getItem("cart");
         var cart = JSON.parse(cart_json);
         cart.push([emailSup, passSup, rePassSup]);
@@ -108,6 +122,10 @@ function signInData(e)
         if( (saved[i][0] === emailSin) && (saved[i][1] == passSin) )
         {
             found = 1;
+            const logs = {
+                log : "yes"
+            }
+            localStorage.setItem("log", JSON.stringify(logs));
             goToHome();
             break;
             

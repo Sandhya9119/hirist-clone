@@ -1,3 +1,4 @@
+
 var navdata = {
     mobile : [
         {
@@ -236,6 +237,7 @@ navdivs.forEach(element => {
 });
 
 function changeOrange(event){
+
     event.setAttribute("class","change-orange");
     var icon = event.querySelector("i");
     icon.style.color = "#e9630c";
@@ -255,6 +257,18 @@ function changeOriginal(event){
 }
 
 function display(type){
+    
+    var checking = localStorage.getItem("log");
+
+    if(checking == null || checking == undefined)
+    {
+        const logs = {
+            log : "no"
+        }
+        localStorage.setItem("log", JSON.stringify(logs));
+    }
+
+
     var cat_info = document.getElementById("sub-categories");
     cat_info.innerHTML = "";
     var info = navdata[type];
@@ -309,3 +323,4 @@ for(var exp = 0; exp<exp_list.length; exp++){
 function selLocation(){
     document.getElementById("location").value = "1 selected";
 }
+

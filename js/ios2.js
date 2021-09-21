@@ -1,3 +1,11 @@
+var something_json = localStorage.getItem("ent");
+var ent = JSON.parse(something_json);
+
+var somethings_json = localStorage.getItem("log");
+var logs = JSON.parse(somethings_json);
+
+
+
 function prev_div()
 {
     var next = document.getElementById("hide2");
@@ -8,50 +16,113 @@ function prev_div()
     var n = document.getElementById("u1");
     n.style.backgroundColor = "white";
     n.style.color = "black";
-    var p = document.getElementById("u2");
+    var p = document.getElementById(" u2");
     p.style.backgroundColor = "orangered";
     p.style.color = "white";
 }
 
 function android1()
 {
-    location.assign("../resume_page/resume1.html");
+    if(logs == null || logs == undefined || logs.log == "no")
+        location.assign("../landing_page/login.html");
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_android1.html");
+    else
+        location.assign("../resume_page/resume1.html");   
 }
 
 function android2()
 {
-    location.assign("apply_android2.html");
+
+    if(logs == null || logs == undefined || logs.log == "no") 
+        location.assign("../landing_page/login.html");
+
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_android2.html");
+    else
+        location.assign("../resume_page/resume1.html");
 }
 
 function ios1()
 {
-    location.assign("apply_ios1.html");
+    if(logs == null || logs == undefined || logs.log == "no")
+        location.assign("../landing_page/login.html"); 
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_ios1.html");
+    else
+        location.assign("../resume_page/resume1.html");  
 }
 
 function ios2()
 {
-    location.assign("apply_ios2.html");
+    if(logs == null || logs == undefined || logs.log == "no") 
+        location.assign("../landing_page/login.html");
+
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_ios2.html");
+    else
+        location.assign("../resume_page/resume1.html");   
 }
 
 function js1()
 {
-    location.assign("apply_js1.html");
+    if(logs == null || logs == undefined || logs.log == "no") 
+        location.assign("../landing_page/login.html");
+
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_js1.html");
+    else
+        location.assign("../resume_page/resume1.html");   
 }
 
 function js2()
 {
-    location.assign("apply_js2.html");
+    if(logs == null || logs == undefined || logs.log == "no") 
+        location.assign("../landing_page/login.html");
+
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_js2.html");
+    else
+        location.assign("../resume_page/resume1.html");   
 }
 
 function react1()
 {
-    location.assign("apply_react1.html");
+    if(logs == null || logs == undefined || logs.log == "no") 
+        location.assign("../landing_page/login.html");
+
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_react1.html");
+    else
+        location.assign("../resume_page/resume1.html");
 }
+
 
 
 function react2()
 {
-    location.assign("apply_react2.html");
+    if(logs == null || logs == undefined || logs.log == "no") 
+        location.assign("../landing_page/login.html");
+    else if(ent == null || ent == undefined) 
+        location.assign("../resume_page/resume1.html");
+    else if(ent.enter === "yes")
+        location.assign("apply_react2.html");
+    else
+        location.assign("../resume_page/resume1.html");   
 }
 
 
