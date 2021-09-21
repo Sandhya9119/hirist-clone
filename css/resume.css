@@ -13,43 +13,6 @@
   font-size: 14px;
   color: #4b4b4b;
 }
-#str1 {
-  width: 5%;
-  padding: 10px 0px 20px 0px;
-}
-#str2 {
-  padding-left: 0;
-  float: left;
-}
-#str3 {
-  padding-left: 0;
-}
-#str4 {
-  padding-left: 0;
-}
-#str5 {
-  padding-left: 0;
-}
-#str6 {
-  line-height: 30px;
-  display: inline-block;
-  padding: 0 15px;
-}
-#str7 {
-  padding-left: 0;
-}
-#str8 {
-  padding-left: 0;
-}
-#str9 {
-  font-size: 15px;
-}
-#str10 {
-  color: white;
-}
-#str11 {
-  color: white;
-}
 .reslis {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
