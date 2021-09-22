@@ -229,5 +229,57 @@
 
 #mi1
 {
-    style=" font-weight:bold; 
+    font-weight:bold; 
+}
+
+#mi2
+{
+    margin-left: 15px;
+}
+
+#mi6
+{
+    text-decoration: none;
+}
+
+#opt
+{
+    text-align: center;
+}
+
+#mi4
+{
+    height: 1px;
+}
+
+#mi5
+{
+    height: 1px
+}
+
+#mi8
+{
+    float: right;
+}
+
+#mi9
+{
+    clear: both; margin-left: 10px; margin-top: 10px; margin-bottom: 2px;
+}
+
+
+#mi7
+{
+    clear: both;
+}
+
+
+#mi10
+{
+    float: left; margin-left: 5px;
+}
+
+#mi11
+{
+    
 }
