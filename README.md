@@ -11,6 +11,11 @@ HTML5, CSS3, JavaScript, JS DOM, Local Storage are used to build this project an
 ### Launch :
 The website "hirist-clone" is for project purpose only.
 
+### Usage instructions : 
+1. Clone the repository
+2. And then go inside the folder "hirist-clone" using "cd hirist-clone", Locate the file "index.html" and run it in the browser using live server.
+
+
 ### Developed by :
 ###### Eternal Explorers group Super X batch from Masai School.
 
